@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="mamu-contacts py-5" id="contact">
         <div className="container">
           <Title title="Contact with me" />
-          <Slide direction="up">
+          <Slide direction="right">
             <div className="row py-5 px-5 mamu-contact-mobile">
               <div className="col-md-6 col-lg-6 col-sm-12 mamu-contact-full">
                 <div className="mamu-contact-img">
