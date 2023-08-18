@@ -25,7 +25,7 @@ export const Slider = () => {
     );
   };
   const SamplePrevtArrow = (props) => {
-    const { className, style, onClick } = props;
+    const { onClick } = props;
     return (
       <div className="slideArrowLeft" onClick={onClick}>
         <PiArrowFatLinesLeftFill />
@@ -46,7 +46,7 @@ export const Slider = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevtArrow />,
 
-    beforeChange: (prev, next) => {
+    beforeChange: (next) => {
       setDotActive(next);
     },
 
