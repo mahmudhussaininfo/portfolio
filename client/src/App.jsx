@@ -21,7 +21,6 @@ function App() {
       <TechStack />
       <WorkExperience />
       <Qualification />
-      <Testimonial />
       <Contact />
       <ToastContainer position="bottom-center" theme="dark" />
     </>

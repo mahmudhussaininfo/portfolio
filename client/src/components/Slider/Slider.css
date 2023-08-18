@@ -1,4 +1,4 @@
-.mamu-slider {
+/* .mamu-slider {
   border: 1px solid #00ddd3;
   padding: 0 30px;
   border-radius: 15px;
@@ -45,7 +45,7 @@
   font-size: 30px;
 }
 
-/* mobile view */
+mobile view */
 @media (max-width: 600px) {
   .mamu-slider {
     margin-left: 10px;
