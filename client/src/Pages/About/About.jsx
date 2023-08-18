@@ -1,6 +1,7 @@
 import about from "../../assets/img/about.png";
 import "./About.css";
-import Bounce from "react-reveal/Bounce";
+// import Bounce from "react-reveal/Bounce";
+import { Bounce } from "react-awesome-reveal";
 
 const About = () => {
   return (

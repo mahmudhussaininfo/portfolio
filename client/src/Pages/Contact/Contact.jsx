@@ -4,7 +4,7 @@ import { IoPhonePortraitOutline, IoMailOutline } from "react-icons/io5";
 import { FaRegAddressCard } from "react-icons/fa";
 import contact from "../../assets/img/contact.jpg";
 import "./contact.css";
-import Slide from "react-reveal/Slide";
+import { Slide } from "react-awesome-reveal";
 import { toast } from "react-toastify";
 import { sendUserMail } from "../../utils/api/UserMsgApi";
 
@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="mamu-contacts py-5" id="contact">
         <div className="container">
           <Title title="Contact with me" />
-          <Slide right>
+          <Slide direction="up">
             <div className="row py-5 px-5 mamu-contact-mobile">
               <div className="col-md-6 col-lg-6 col-sm-12 mamu-contact-full">
                 <div className="mamu-contact-img">

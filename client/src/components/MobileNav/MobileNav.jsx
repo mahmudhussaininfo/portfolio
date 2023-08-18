@@ -8,7 +8,7 @@ import { TbUserCode } from "react-icons/tb";
 import { MdMilitaryTech } from "react-icons/md";
 import { BsSignIntersectionT, BsJournalCode } from "react-icons/bs";
 import { TiContacts } from "react-icons/ti";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const MobileNav = () => {
   const [open, setOpen] = useState(false);
@@ -30,7 +30,7 @@ const MobileNav = () => {
         </div>
         {open && (
           <div className="mobile-nav-menu">
-            <Fade top>
+            <Fade direction="down">
               <div className="nav-items py-5">
                 <div className="nav-item">
                   <div className="nav-link py-3">

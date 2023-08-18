@@ -6,14 +6,14 @@ import { TbUserCode } from "react-icons/tb";
 import { MdMilitaryTech } from "react-icons/md";
 import { BsSignIntersectionT, BsJournalCode } from "react-icons/bs";
 import { TiContacts } from "react-icons/ti";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Menu = ({ toggle }) => {
   return (
     <>
       {toggle ? (
         <>
-          <Fade left>
+          <Fade direction="left">
             {" "}
             <div className="nav-items py-5">
               <div className="nav-item">

@@ -1,11 +1,12 @@
 import React from "react";
 import "./Title.css";
-import Flash from "react-reveal/Flash";
+
+import { Bounce } from "react-awesome-reveal";
 
 const Title = ({ title, text }) => {
   return (
     <>
-      <Flash>
+      <Bounce>
         <div className="mamu-title">
           <div className="row">
             <div className="col">
@@ -16,7 +17,7 @@ const Title = ({ title, text }) => {
             </div>
           </div>
         </div>
-      </Flash>
+      </Bounce>
     </>
   );
 };

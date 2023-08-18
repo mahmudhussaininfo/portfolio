@@ -2,8 +2,8 @@ import React from "react";
 import "./Tech.css";
 import { techIcon } from "../../utils/TechIcon/TechIcon";
 import Title from "../TItle/Title";
-import Flash from "react-reveal/Flash";
-import Slide from "react-reveal/Slide";
+import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 const TechStack = () => {
   return (
@@ -12,7 +12,7 @@ const TechStack = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <Flash>
+              <Bounce>
                 <div className="mamu-tech-content">
                   <Title title="Technology Stack" />
                   <p>
@@ -22,7 +22,7 @@ const TechStack = () => {
                     Here's a glimpse into my technology stack
                   </p>
                 </div>
-              </Flash>
+              </Bounce>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ const TechStack = () => {
                   <div className="col-md-3">
                     <div className="card m-3 mamu-card">
                       <div className="card-body">
-                        <Slide left>
+                        <Slide direction="right">
                           <div className="mamu-media ">
                             <div className="icon">
                               <item.icon />

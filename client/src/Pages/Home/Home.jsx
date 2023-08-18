@@ -4,8 +4,9 @@ import Typewriter from "typewriter-effect";
 import resume from "../../assets/file/resume.txt";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 const Home = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-7 col-sm-12">
               <div className="mamu-content py-5">
-                <Fade top big>
+                <Fade direction="down">
                   <div className="social">
                     <span>
                       <a
@@ -45,7 +46,7 @@ const Home = () => {
                   </div>
                 </Fade>
 
-                <Fade right>
+                <Slide direction="left">
                   <h3 className="text-light">
                     Hello, welcome to <br />
                     my Home! 🧡
@@ -63,7 +64,7 @@ const Home = () => {
                       }}
                     />
                   </h1>
-                </Fade>
+                </Slide>
                 <div className="mamu-button py-3 d-flex">
                   <a
                     className="mamuu"
