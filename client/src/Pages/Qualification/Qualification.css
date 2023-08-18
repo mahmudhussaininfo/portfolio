@@ -1,0 +1,27 @@
+.mamu-qualification {
+  background: rgb(3, 79, 80);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 79, 80, 1) 0%,
+    rgba(19, 22, 0, 1) 61%
+  );
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mamu-verti-content {
+  color: rgb(0, 0, 0) !important;
+}
+.mamu-quali-content span {
+  color: #fff !important;
+  font-size: 20px !important;
+}
+
+/* mobile view */
+@media (max-width: 600px) {
+  .mamu-qualification {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

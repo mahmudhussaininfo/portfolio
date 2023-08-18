@@ -1,0 +1,63 @@
+.mamu-slider {
+  border: 1px solid #00ddd3;
+  padding: 0 30px;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.client-img img {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+.client-content h1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.client-content p {
+  font-size: 25px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.slideArrowRight {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  right: -7px;
+  top: -37px;
+}
+.slideArrowLeft {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  right: 50px;
+  top: -37px;
+}
+.icon-style svg {
+  color: rgb(237, 241, 4);
+  font-size: 30px;
+}
+
+/* mobile view */
+@media (max-width: 600px) {
+  .mamu-slider {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .client-content.px-5.py-3.text-center {
+    padding: 30px 20px !important;
+  }
+  .client-content p {
+    font-size: 20px;
+  }
+  .client-img img {
+    margin-top: 50px;
+  }
+}

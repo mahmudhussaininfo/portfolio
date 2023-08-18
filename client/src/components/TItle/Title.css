@@ -1,0 +1,14 @@
+.mamu-title-content h1 {
+  color: #f47d20;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.mamu-title-content p {
+  padding-top: 10px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: capitalize;
+}
