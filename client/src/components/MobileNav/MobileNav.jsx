@@ -62,6 +62,19 @@ const MobileNav = () => {
                   </div>
                   <div className="nav-link py-3">
                     <Link
+                      to="portfolio"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={100}
+                      onClick={menuOpen}
+                    >
+                      <BsJournalCode title="Portfolio" />
+                      <span>portfolio</span>
+                    </Link>
+                  </div>
+                  <div className="nav-link py-3">
+                    <Link
                       to="tech"
                       spy={true}
                       smooth={true}
@@ -73,19 +86,7 @@ const MobileNav = () => {
                       <span>Tech Stack</span>
                     </Link>
                   </div>
-                  <div className="nav-link py-3">
-                    <Link
-                      to="work"
-                      spy={true}
-                      smooth={true}
-                      offset={50}
-                      duration={100}
-                      onClick={menuOpen}
-                    >
-                      <BsJournalCode title="Portfolio" />
-                      <span>portfolio</span>
-                    </Link>
-                  </div>
+
                   <div className="nav-link py-3">
                     <Link
                       to="qualification"

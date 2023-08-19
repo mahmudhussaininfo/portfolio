@@ -24,4 +24,12 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .mamu-verti-content {
+    color: rgb(0, 0, 0) !important;
+  }
+  .mamu-quali-content span {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
 }
