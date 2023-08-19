@@ -1,4 +1,110 @@
 .mamu-portfolio {
-  background-color: red;
+  background: rgb(3, 79, 80);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 79, 80, 1) 0%,
+    rgba(19, 22, 0, 1) 61%
+  );
   padding: 80px 0px;
+}
+.portfolio {
+  padding-top: 40px;
+}
+.portfolio-cards {
+  background: rgb(3, 79, 80);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 79, 80, 1) 0%,
+    rgba(19, 22, 0, 1) 61%
+  );
+  transition: all 0.9s ease-in-out;
+}
+.portfolio-cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.portfolio-img-content span {
+  text-transform: uppercase;
+  border: 1px solid #11667a;
+  margin-right: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.portfolio-img-content span:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #0d2e22;
+}
+
+.portfolio-img-content span:hover {
+  background-color: #196678 !important;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 0 5px #0d2e22;
+  text-shadow: 0 0 5px #ffee10;
+}
+.portfolio-cards-body h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.portfolio-buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.portfolio-buttons {
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #03657d 0%,
+    #6a6866 51%,
+    #bdb9b9 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.portfolio-buttons:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-buttons:active {
+  transform: scale(0.95);
+}
+
+/* mobile view  */
+@media (max-width: 600px) {
+  .mamu-portfolio {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .portfolio-cards {
+    margin-bottom: 40px;
+  }
 }
