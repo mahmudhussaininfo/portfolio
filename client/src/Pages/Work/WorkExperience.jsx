@@ -4,7 +4,6 @@ import "./work.css";
 import project1 from "../../assets/img/project1.png";
 import project2 from "../../assets/img/project2.png";
 import project3 from "../../assets/img/project3.png";
-
 import { Zoom } from "react-awesome-reveal";
 
 const WorkExperience = () => {
@@ -13,7 +12,7 @@ const WorkExperience = () => {
       <div className="mamu-work" id="work">
         <div className="container">
           <Title title="my recent projects" />
-          <Zoom>
+          <Zoom direction="down">
             <div className="row py-3">
               <div className="col-md-4">
                 <div className="card text-center mamu-cards">
