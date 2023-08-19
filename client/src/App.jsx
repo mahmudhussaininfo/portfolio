@@ -2,9 +2,9 @@ import "./App.css";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
+import PortFolio from "./Pages/Portfolio/PortFolio";
 import Qualification from "./Pages/Qualification/Qualification";
 import Testimonial from "./Pages/Testimonial/Testimonial";
-import Portfolio from "./Pages/Work/Portfolio";
 import Layout from "./components/Layout/Layout";
 import MobileNav from "./components/MobileNav/MobileNav";
 import TechStack from "./components/Techstack/TechStack";
@@ -18,7 +18,7 @@ function App() {
       <Layout />
       <Home />
       <About />
-      <Portfolio />
+      <PortFolio />
       <TechStack />
       <Qualification />
       <Testimonial />

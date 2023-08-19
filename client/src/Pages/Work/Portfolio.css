@@ -1,4 +1,4 @@
-.mamu-works {
+/* .mamu-works {
   background: rgb(3, 79, 80);
   background: linear-gradient(
     0deg,
@@ -94,8 +94,8 @@
   transform: scale(0.95);
 }
 
-/* mobile view */
-@media (max-width: 600px) {
+mobile view */
+/* @media (max-width: 600px) {
   .mamu-works {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -105,4 +105,4 @@
   .mamu-cards {
     margin-bottom: 40px;
   }
-}
+} */
