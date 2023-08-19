@@ -10,7 +10,6 @@ import MobileNav from "./components/MobileNav/MobileNav";
 import TechStack from "./components/Techstack/TechStack";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Slider } from "./components/Slider/Slider";
 
 function App() {
   return (

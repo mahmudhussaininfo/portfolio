@@ -3,7 +3,7 @@ import "./Tech.css";
 import { techIcon } from "../../utils/TechIcon/TechIcon";
 import Title from "../TItle/Title";
 import { Bounce } from "react-awesome-reveal";
-import { Slide } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const TechStack = () => {
   return (
@@ -33,7 +33,7 @@ const TechStack = () => {
                   <div className="col-md-3">
                     <div className="card m-3 mamu-card">
                       <div className="card-body">
-                        <Slide direction="right">
+                        <Zoom direction="down">
                           <div className="mamu-media ">
                             <div className="icon">
                               <item.icon />
@@ -42,7 +42,7 @@ const TechStack = () => {
                               <h4>{item.name}</h4>
                             </div>
                           </div>
-                        </Slide>
+                        </Zoom>
                       </div>
                     </div>
                   </div>
