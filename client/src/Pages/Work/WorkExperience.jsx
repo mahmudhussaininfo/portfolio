@@ -1,15 +1,15 @@
 import React from "react";
 import Title from "../../components/TItle/Title";
-import "./work.css";
 import project1 from "../../assets/img/project1.png";
 import project2 from "../../assets/img/project2.png";
 import project3 from "../../assets/img/project3.png";
 import { Zoom } from "react-awesome-reveal";
+import "./work.css";
 
 const WorkExperience = () => {
   return (
     <>
-      <div className="mamu-work" id="work">
+      <div className="mamu-works" id="work">
         <div className="container">
           <Title title="my recent projects" />
           <Zoom direction="down">
