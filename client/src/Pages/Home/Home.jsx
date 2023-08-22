@@ -56,6 +56,8 @@ const Home = () => {
                       options={{
                         strings: [
                           "Full Stack Developer!",
+                          "Mern Stac Developer!",
+                          "Front-End-Developer!",
                           "React Expert!",
                           "wordpress expert!",
                         ],
@@ -65,15 +67,7 @@ const Home = () => {
                     />
                   </h1>
                 </Slide>
-                <div className="mamu-button py-3 d-flex">
-                  <a
-                    className="mamuu"
-                    href="https://api.whatsapp.com/send?phone=+8801776757650"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Hire me
-                  </a>
+                <div className="mamu-button py-3">
                   <a
                     className="mamuu text-center"
                     href={resume}

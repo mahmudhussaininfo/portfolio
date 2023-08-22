@@ -4,14 +4,21 @@ import "./Layout.css";
 import Menu from "../Menus/Menu";
 
 const Layout = () => {
-  const [toggle, setToggle] = useState(true);
+  // const [toggle, setToggle] = useState(true);
 
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
+  // const handleToggle = () => {
+  //   setToggle(!toggle);
+  // };
   return (
     <>
       <div className="sidebar-section">
+        <div className="sidebar">
+          <div className="menu">
+            <Menu />
+          </div>
+        </div>
+      </div>
+      {/* <div className="sidebar-section">
         <div className={toggle ? "sidebar-toogle sidebar" : "sidebar"}>
           <div className="sidebar-toogle-icon">
             <span onClick={handleToggle}>
@@ -22,11 +29,7 @@ const Layout = () => {
             <Menu toggle={toggle} />
           </div>
         </div>
-        {/* 
-        <div className="container">
-          <Home />
-        </div> */}
-      </div>
+      </div> */}
     </>
   );
 };

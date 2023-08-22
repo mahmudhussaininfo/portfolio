@@ -1,11 +1,10 @@
- .mamu-slider {
-  border: 1px solid #00ddd3;
+.mamu-slider {
+  border: 1px solid #274173;
   padding: 0 30px;
   border-radius: 15px;
   margin-left: 80px;
   margin-right: 80px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(233, 231, 231, 0.3) 0px 7px 29px 0px;
 }
 .client-img img {
   display: inline-block;
@@ -60,4 +59,4 @@
   .client-img img {
     margin-top: 50px;
   }
-} */
+}

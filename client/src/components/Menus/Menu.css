@@ -4,7 +4,6 @@
 }
 .nav-link {
   display: flex !important;
-  align-items: center;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -12,17 +11,15 @@
   margin-right: 12px;
   font-size: 30px;
 }
-.nav-link span {
+/* .nav-link span {
   text-transform: uppercase;
   font-size: 17px;
-}
+} */
 .nav-link:hover {
   color: rgb(228, 228, 8) !important;
-  font-weight: 700;
-  font-size: 20px;
 }
 .nav-link .active {
-  color: #f7630c;
+  color: #e6ea00;
   font-weight: 700;
   text-decoration: none;
 }

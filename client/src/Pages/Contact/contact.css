@@ -1,15 +1,9 @@
 .mamu-contacts {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #03142b;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .mamu-contact-full {
-  border-right: 1px solid #00ddd3;
   padding-left: 40px;
 }
 .mamu-margin {
@@ -38,8 +32,10 @@
   margin-bottom: 30px;
 }
 .mamu-contact-form {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: rgba(243, 243, 243, 0.3) 0px 19px 38px,
+    rgba(250, 250, 250, 0.22) 0px 15px 12px;
 }
 .mamu-contact-form h2 {
   text-transform: capitalize;
@@ -48,83 +44,53 @@
   font-weight: 700;
 }
 .mamu-contact-form input {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #fff;
   border: none !important;
-  border-radius: 0px !important;
+  border-radius: 17px !important;
   padding: 20px !important;
-  color: #fff !important;
+  color: #111 !important;
   font-size: 20px;
 }
 .mamu-contact-form textarea {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(22, 15, 0, 1) 61%
-  );
+  background: #fff;
   border: none !important;
-  border-radius: 0px !important;
+  border-radius: 17px !important;
   padding: 20px !important;
-  color: #fff !important;
+  color: #111 !important;
   width: 100%;
   height: 150px;
   resize: none;
   font-size: 20px;
 }
 .mamu-contact-form input:focus {
-  background-color: #09605c !important;
   box-shadow: none !important;
   outline: none;
 }
 
 ::placeholder {
-  color: #b9b6b6 !important;
+  color: #000000 !important;
   opacity: 1;
   font-weight: 400;
 }
 .mamu-contact-form textarea:focus {
-  background-color: #09605c !important;
   box-shadow: none !important;
   outline: none;
 }
 .mamu-contact-form button {
-  border-radius: 0px;
-  text-transform: uppercase;
-  padding: 15px 30px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  border: 0px;
-  display: block;
+  background-color: #03142b;
+  color: #fff;
+  border: 1px solid #294374;
+  padding: 15px 40px;
   font-weight: 700;
-  box-shadow: 0px 0px 14px -7px #f09819;
-  background-image: linear-gradient(
-    45deg,
-    #03657d 0%,
-    #6a6866 51%,
-    #bdb9b9 100%
-  );
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  margin-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
 }
 
 .mamu-contact-form button:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
-}
-
-.mamu-contact-form button:active {
-  transform: scale(0.95);
+  background-color: #fff;
+  color: #111;
 }
 a.mamu-contact-form button {
   text-decoration: none;
@@ -154,9 +120,8 @@ a.mamu-contact-form button {
     font-size: 20px;
   }
   .mamu-contact-form {
-    margin-top: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 40px 30px;
+    margin-top: 40px;
   }
   .mamu-contact-form h2 {
     color: #fff;

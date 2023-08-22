@@ -1,10 +1,5 @@
 .mamu-testimonial {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #03142b;
   padding-top: 80px;
   padding-bottom: 80px;
 }

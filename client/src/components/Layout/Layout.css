@@ -1,19 +1,16 @@
 .sidebar-section {
   display: flex;
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #03142b;
 }
 .sidebar {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(0deg, rgb(6, 61, 62) 0%, rgba(19, 22, 0, 1) 61%);
-  height: 100vh;
-  width: 100px;
+  background-color: #040d1b;
+  /* height: 100vh; */
   padding: 20px;
+  margin-top: 250px;
   position: fixed;
+  border-radius: 20px;
+  box-shadow: rgba(243, 243, 243, 0.3) 0px 19px 38px,
+    rgba(250, 250, 250, 0.22) 0px 15px 12px;
 }
 
 .sidebar-toogle {

@@ -1,22 +1,13 @@
 .mamu-portfolio {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #03142b;
   padding: 80px 0px;
 }
 .portfolio {
   padding-top: 40px;
 }
 .portfolio-cards {
-  background: rgb(3, 79, 80);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 79, 80, 1) 0%,
-    rgba(19, 22, 0, 1) 61%
-  );
+  background-color: #06142f !important;
+  border: 2px solid #274173 !important;
   transition: all 0.9s ease-in-out;
 }
 .portfolio-cards:hover {
@@ -25,12 +16,12 @@
 }
 .portfolio-img-content span {
   text-transform: uppercase;
-  border: 1px solid #11667a;
+  border: 1px solid #6e798c;
   margin-right: 10px;
   margin-top: 20px;
   display: inline-block;
   padding: 10px 15px;
-  color: #fff;
+  color: #ebebeb;
   border-radius: 10px;
   font-size: 14px;
   cursor: pointer;
@@ -43,11 +34,9 @@
 }
 
 .portfolio-img-content span:hover {
-  background-color: #196678 !important;
-  color: #ffffff;
+  background-color: #fdfdfd !important;
+  color: #000000;
   font-weight: 600;
-  box-shadow: 0 0 5px #0d2e22;
-  text-shadow: 0 0 5px #ffee10;
 }
 .portfolio-cards-body h4 {
   text-transform: uppercase;
@@ -55,45 +44,25 @@
   font-weight: 600;
   padding-top: 15px;
 }
-.portfolio-buttons a {
-  text-decoration: none;
-  color: #fff;
-}
 
-.portfolio-buttons {
-  text-transform: uppercase;
-  margin: 10px;
-  padding: 15px 20px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  border-radius: 10px;
-  display: block;
-  border: 0px;
+.button-portfolio {
+  background-color: #03142b;
+  color: #fff;
+  border: 1px solid #294374;
+  padding: 15px 70px;
   font-weight: 700;
-  box-shadow: 0px 0px 14px -7px #f09819;
-  background-image: linear-gradient(
-    45deg,
-    #03657d 0%,
-    #6a6866 51%,
-    #bdb9b9 100%
-  );
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  margin: 10px 0px;
+
+  font-size: 20px;
 }
 
-.portfolio-buttons:hover {
-  background-position: right center;
-  color: #fff;
+.button-portfolio:hover {
+  background-color: #f1f1f1;
+  color: #111;
+}
+a.button-portfolio {
+  display: inline-block;
   text-decoration: none;
-}
-
-.portfolio-buttons:active {
-  transform: scale(0.95);
 }
 
 /* mobile view  */

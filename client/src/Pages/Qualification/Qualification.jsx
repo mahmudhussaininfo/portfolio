@@ -17,13 +17,13 @@ const Qualification = () => {
             <VerticalTimeline>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work mamu-verti-content"
-                contentStyle={{ background: "#00ddd3" }}
+                contentStyle={{ background: "#040d1b" }}
                 contentArrowStyle={{
-                  borderRight: "17px solid  #00ddd3",
+                  borderRight: "17px solid  #fff",
                 }}
                 date="2015"
                 iconStyle={{
-                  background: "#256675",
+                  background: "#03142b",
                   color: "#fff",
                 }}
                 icon={<MdSchool />}
@@ -35,13 +35,13 @@ const Qualification = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work mamu-verti-content"
-                contentStyle={{ background: "#00ddd3" }}
+                contentStyle={{ background: "#040d1b" }}
                 contentArrowStyle={{
-                  borderRight: "17px solid  #00ddd3",
+                  borderRight: "17px solid  #fff",
                 }}
                 date="2017"
                 iconStyle={{
-                  background: "#256675",
+                  background: "#03142b",
                   color: "#fff",
                 }}
                 icon={<MdSchool />}
@@ -53,42 +53,22 @@ const Qualification = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work mamu-verti-content"
-                contentStyle={{ background: "#00ddd3" }}
+                contentStyle={{ background: "#040d1b" }}
                 contentArrowStyle={{
-                  borderRight: "17px solid  #00ddd3",
+                  borderRight: "17px solid  #fff",
                 }}
-                date="2018-2022"
+                date="2017"
                 iconStyle={{
-                  background: "#256675",
+                  background: "#03142b",
                   color: "#fff",
                 }}
                 icon={<MdSchool />}
               >
                 <h3 className="vertical-timeline-element-title py-2">
-                  HONOURS
+                  BSC HONOURS
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Sylhet, Bangladesh
-                </h4>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work mamu-verti-content"
-                contentStyle={{ background: "#00ddd3" }}
-                contentArrowStyle={{
-                  borderRight: "17px solid  #00ddd3",
-                }}
-                date="2021-Present"
-                iconStyle={{
-                  background: "#256675",
-                  color: "#fff",
-                }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title py-2">
-                  WEB DEVELOPER
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  Dhaka, Bangladesh
                 </h4>
               </VerticalTimelineElement>
             </VerticalTimeline>
