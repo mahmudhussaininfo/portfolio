@@ -1,5 +1,5 @@
 .mobile-nav {
-  background-color: #040d1b;
+  background-color: #03142b;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -28,7 +28,7 @@
 .mobile-nav-menu {
   display: flex;
   justify-content: center;
-  background-color: #131600;
+  background-color: #040d1b;
 }
 .nav-item {
   padding-left: 10px;

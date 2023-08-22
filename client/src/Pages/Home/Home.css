@@ -21,7 +21,7 @@
   transition: all 1s ease;
 }
 .social span svg:hover {
-  color: #f47d20;
+  color: #f5f813 !important;
 }
 .mamu-content h1 {
   color: #edf104;

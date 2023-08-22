@@ -110,7 +110,7 @@ const Contact = () => {
                       </div>
                       <div className="my-4">
                         <textarea
-                          placeholder="write your message"
+                          placeholder="Write Your Message"
                           name="message"
                           value={input.message}
                           onChange={handleChange}

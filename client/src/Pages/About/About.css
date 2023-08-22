@@ -43,7 +43,7 @@
   }
   .mamu-about-photo img {
     display: flex;
-    width: 90%;
+    width: 100%;
     padding-bottom: 30px;
     justify-content: center;
     margin: 0 auto;

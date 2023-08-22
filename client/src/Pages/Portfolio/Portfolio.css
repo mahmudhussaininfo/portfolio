@@ -49,11 +49,12 @@
   background-color: #03142b;
   color: #fff;
   border: 1px solid #294374;
-  padding: 15px 70px;
+  padding: 12px 70px;
   font-weight: 700;
   margin: 10px 0px;
-
   font-size: 20px;
+  text-transform: uppercase;
+  transition: all 1s ease;
 }
 
 .button-portfolio:hover {
